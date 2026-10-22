@@ -1,0 +1,236 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>AddQuestionServlet</servlet-name>
+        <servlet-class>com.quizsystem.servlet.AddQuestionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddQuestionServlet</servlet-name>
+        <url-pattern>/AddQuestionServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>StartTestServlet</servlet-name>
+        <servlet-class>com.quizsystem.servlet.StartTestServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StartTestServlet</servlet-name>
+        <url-pattern>/StartTestServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SubmitTestServlet</servlet-name>
+        <servlet-class>com.quizsystem.servlet.SubmitTestServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SubmitTestServlet</servlet-name>
+        <url-pattern>/SubmitTestServlet</url-pattern>
+    </servlet-mapping>
+	<servlet>
+    <servlet-name>GenerateMockTestServlet</servlet-name>
+    <servlet-class>com.quizsystem.servlet.GenerateMockTestServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>GenerateMockTestServlet</servlet-name>
+    <url-pattern>/GenerateMockTestServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>SubmitMockTestServlet</servlet-name>
+    <servlet-class>
+        com.quizsystem.servlet.SubmitMockTestServlet
+    </servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>SubmitMockTestServlet</servlet-name>
+    <url-pattern>/SubmitMockTestServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <servlet-class>
+        com.quizsystem.servlet.AddStudentServlet
+    </servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <url-pattern>/AddStudentServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>UploadNotesServlet</servlet-name>
+
+    <servlet-class>
+        com.quizsystem.servlet.UploadNotesServlet
+    </servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+    <servlet-name>UploadNotesServlet</servlet-name>
+
+    <url-pattern>/UploadNotesServlet</url-pattern>
+
+</servlet-mapping>
+<servlet>
+    <servlet-name>ViewResultsServlet</servlet-name>
+
+    <servlet-class>
+        com.quizsystem.servlet.ViewResultsServlet
+    </servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ViewResultsServlet</servlet-name>
+
+    <url-pattern>/ViewResultsServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+
+<servlet-name>
+RemoveQuestionServlet
+</servlet-name>
+
+<servlet-class>
+com.quizsystem.servlet.RemoveQuestionServlet
+</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+<servlet-name>
+RemoveQuestionServlet
+</servlet-name>
+
+<url-pattern>
+/RemoveQuestionServlet
+</url-pattern>
+
+</servlet-mapping>
+<servlet>
+
+<servlet-name>CodingQuestionServlet</servlet-name>
+
+<servlet-class>
+com.quizsystem.servlet.CodingQuestionServlet
+</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+<servlet-name>CodingQuestionServlet</servlet-name>
+
+<url-pattern>/CodingQuestionServlet</url-pattern>
+
+</servlet-mapping>
+<servlet>
+
+<servlet-name>AnalyticsServlet</servlet-name>
+
+<servlet-class>
+com.quizsystem.servlet.AnalyticsServlet
+</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+<servlet-name>AnalyticsServlet</servlet-name>
+
+<url-pattern>/AnalyticsServlet</url-pattern>
+
+</servlet-mapping>
+<servlet>
+
+<servlet-name>RemoveStudentServlet</servlet-name>
+
+<servlet-class>
+
+com.quizsystem.servlet.RemoveStudentServlet
+
+</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+<servlet-name>RemoveStudentServlet</servlet-name>
+
+<url-pattern>/RemoveStudentServlet</url-pattern>
+
+</servlet-mapping>
+<servlet>
+
+<servlet-name>ManageQuestionsServlet</servlet-name>
+
+<servlet-class>
+com.quizsystem.servlet.ManageQuestionsServlet
+</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+<servlet-name>ManageQuestionsServlet</servlet-name>
+
+<url-pattern>/ManageQuestionsServlet</url-pattern>
+
+</servlet-mapping>
+<servlet>
+
+<servlet-name>
+
+GenerateAssessmentServlet
+
+</servlet-name>
+
+<servlet-class>
+
+com.quizsystem.servlet.GenerateAssessmentServlet
+
+</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+<servlet-name>
+
+GenerateAssessmentServlet
+
+</servlet-name>
+
+<url-pattern>
+
+/GenerateAssessmentServlet
+
+</url-pattern>
+
+</servlet-mapping>
+<servlet>
+<servlet-name>AddFacultyServlet</servlet-name>
+<servlet-class>com.quizsystem.servlet.AddFacultyServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>AddFacultyServlet</servlet-name>
+<url-pattern>/AddFacultyServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>RemoveFacultyServlet</servlet-name>
+<servlet-class>com.quizsystem.servlet.RemoveFacultyServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>RemoveFacultyServlet</servlet-name>
+<url-pattern>/RemoveFacultyServlet</url-pattern>
+</servlet-mapping>
+</web-app>

@@ -1,0 +1,136 @@
+body{
+margin:0;
+padding:0;
+font-family:Arial;
+background:#0f172a;
+color:white;
+}
+
+/* Sidebar */
+.sidebar{
+width:260px;
+height:100vh;
+background:#111827;
+padding:20px;
+position:fixed;
+left:0;
+top:0;
+overflow:auto;
+}
+
+.sidebar h2{
+color:#B6FF6B;
+margin-bottom:20px;
+}
+
+.sidebar button{
+width:100%;
+padding:12px;
+margin-bottom:10px;
+border:none;
+border-radius:10px;
+background:#1f2937;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.sidebar button:hover{
+background:#B6FF6B;
+color:black;
+}
+
+/* Main */
+.main{
+margin-left:280px;
+padding:25px;
+width:100%;
+}
+
+/* Sections */
+.section{
+display:none;
+background:#111827;
+padding:20px;
+border-radius:15px;
+margin-bottom:20px;
+}
+
+.active{
+display:block;
+}
+
+/* Cards */
+.card{
+background:#1f2937;
+padding:15px;
+border-radius:10px;
+margin-top:10px;
+}
+
+.card h3{
+color:#B6FF6B;
+}
+
+/* Grid */
+.grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:15px;
+}
+
+/* Inputs */
+input,select,textarea{
+width:100%;
+padding:10px;
+margin-top:10px;
+border:none;
+border-radius:8px;
+background:#1f2937;
+color:white;
+}
+
+/* Buttons */
+.greenBtn{
+background:#B6FF6B;
+color:black;
+padding:10px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+margin-top:10px;
+font-weight:bold;
+}
+
+/* Avatar */
+.avatar{
+width:80px;
+height:80px;
+border-radius:50%;
+background:#B6FF6B;
+color:black;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:30px;
+font-weight:bold;
+}
+
+/* Badge */
+.badge{
+background:#B6FF6B;
+color:black;
+padding:8px 15px;
+border-radius:8px;
+display:inline-block;
+margin-top:10px;
+font-weight:bold;
+}
+
+/* Improvement box */
+.improve-box{
+background:#1f2937;
+padding:15px;
+border-radius:10px;
+margin-top:10px;
+}
